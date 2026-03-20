@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Inventario</title>
+<link rel="stylesheet" href="css/estilos.css">
+<script defer src="js/app.js"></script>
+</head>
+<body>
+<h1>Inventario De Tienda Informática</h1>
+<div class="controls">
+    <input type="text" id="buscador" placeholder="Buscar artículo">
+    <button onclick="ordenar(true)">Orden A-Z</button>
+    <button onclick="ordenar(false)">Orden Z-A</button>
+    <button onclick="window.location.href='crear.html'">Añadir artículo</button>
+</div>
+<ul id="lista-articulos"></ul>
+</body>
+</html>
